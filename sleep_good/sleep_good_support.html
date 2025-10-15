@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Good - Support</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333;
+      }
+
+      .container {
+        background: white;
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 500px;
+        width: 90%;
+      }
+
+      .app-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 18px;
+        margin: 0 auto 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .app-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      h1 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+        font-size: 28px;
+        font-weight: 600;
+      }
+
+      .subtitle {
+        color: #7f8c8d;
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+
+      .description {
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 30px;
+        font-size: 15px;
+      }
+
+      .support-btn {
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+
+      .support-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+      }
+
+      .support-btn:active {
+        transform: translateY(0);
+      }
+
+      .contact-info {
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #eee;
+        color: #7f8c8d;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-icon">
+        <img src="./sleep_good_icon.png" alt="Sleep Good App Icon" />
+      </div>
+      <h1>Sleep Good</h1>
+      <p class="subtitle">The Best Sleep Support App</p>
+
+      <div class="description">
+        <p>
+          Need help or have questions about the Sleep Good app? We're always
+          here to help you!
+        </p>
+        <br />
+        <p>
+          Please describe in detail the issue you're experiencing or the
+          question you'd like to ask. We'll respond as soon as possible.
+        </p>
+      </div>
+
+      <a
+        href="mailto:thanduchuy003@gmail.com?subject=Sleep Good - Support Request&body=Hello,%0D%0A%0D%0AI need support for the Sleep Good app:%0D%0A%0D%0A[Please describe your issue here]%0D%0A%0D%0ADevice Information:%0D%0A- Operating System: %0D%0A- App Version: %0D%0A%0D%0AThank you!"
+        class="support-btn"
+      >
+        📧 Send Support Request
+      </a>
+
+      <div class="contact-info">
+        <p>Support Email: thanduchuy003@gmail.com</p>
+        <p>We typically respond within 24 hours</p>
+      </div>
+    </div>
+  </body>
+</html>
